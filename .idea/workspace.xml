@@ -28,10 +28,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" showNonProject="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="44" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.45112783">
+            <state line="24" column="44" selection-start="1032" selection-end="1032" vertical-scroll-proportion="-7.5">
               <folding />
             </state>
           </provider>
@@ -46,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stylesheets/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="21" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+            <state line="22" column="21" selection-start="224" selection-end="224" vertical-scroll-proportion="0.78014183">
               <folding />
             </state>
           </provider>
@@ -101,8 +101,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/stylesheets/custom.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/stylesheets/custom.css" />
       </list>
     </option>
   </component>
@@ -199,7 +199,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="0" width="1602" height="880" extended-state="6" />
+    <frame x="-1" y="0" width="1602" height="880" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -251,9 +251,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stylesheets/custom.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0">
+        <state line="24" column="44" selection-start="1032" selection-end="1032" vertical-scroll-proportion="-7.5">
           <folding />
         </state>
       </provider>
@@ -265,9 +265,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/stylesheets/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="44" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.45112783">
+        <state line="22" column="21" selection-start="224" selection-end="224" vertical-scroll-proportion="0.78014183">
           <folding />
         </state>
       </provider>
