@@ -4,7 +4,6 @@
     <list default="true" id="44465842-b0e4-48ab-bb05-6b81dbffd4a3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/custom.css" afterPath="$PROJECT_DIR$/stylesheets/custom.css" />
     </list>
     <ignored path="Craftsman Guild.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,10 +27,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" showNonProject="false" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="34" selection-start="1062" selection-end="1062" vertical-scroll-proportion="-11.25">
+            <state line="27" column="113" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.4525862">
               <folding />
             </state>
           </provider>
@@ -46,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="custom.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="9" selection-start="238" selection-end="238" vertical-scroll-proportion="0.47916666">
+            <state line="25" column="9" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -101,8 +100,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stylesheets/custom.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -272,16 +271,16 @@
         <state line="206" column="1" selection-start="9430" selection-end="9434" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/stylesheets/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="34" selection-start="1062" selection-end="1062" vertical-scroll-proportion="-11.25">
+        <state line="25" column="9" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/custom.css">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="238" selection-end="238" vertical-scroll-proportion="0.47916666">
+        <state line="27" column="113" selection-start="1359" selection-end="1359" vertical-scroll-proportion="0.4525862">
           <folding />
         </state>
       </provider>
