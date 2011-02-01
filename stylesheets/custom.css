@@ -23,7 +23,7 @@ h4 {
     font-size: 1.5em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+.heading {
     color: #8B7E66;
     text-shadow: #F1EDC2 3px 3px 2px;
     font-family: 'Merriweather', arial, serif;
