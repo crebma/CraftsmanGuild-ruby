@@ -8,8 +8,10 @@
     <title>Craftsman Guild</title>
 </head>
 <body>
+    <!-- This div is the container required for Blueprint CSS -->
     <div class="container">
         <h1 class="heading">Craftsman Guild</h1>
+        <!-- The navigation bar -->
         <nav class="span-24 last">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -18,6 +20,7 @@
                 <li><a href="login.html">Login</a></li>
             </ul>
         </nav>
+        <!-- This section contains the event and calendar info -->
         <section class="span-24 last" id="event_info">
             <div class="span-13">
                 <h2 class="heading">Events</h2>
@@ -31,14 +34,16 @@
                 <embed src="http://www.google.com/calendar/embed?src=saghaulor%40gmail.com&ctz=America/New_York" width="450" height="300"></embed>
             </div>
         </section>
+        <!-- This section contains the about column, the donation column, and the twitter feed widget -->
         <section class="span-24">
+            <!-- This is the about column -->
             <article class="span-10 colborder" id="about_info" >
                 <h3 class="heading">About Craftsman Guild</h3>
                 <p>We like software. How about you?</p>
                 <p>If you like software, you should probably come check us out.</p>
                 <p>We take software development seriously. But we don't take ourselves serious.</p>
             </article>
-
+            <!-- This is the donation column -->
             <aside class="span-6 colborder" id="donation">
                 <h3 class="heading">Donate</h3>
                 <p>Economics 101: There's no free lunch.</p>
@@ -48,10 +53,9 @@
                     trade as keynote speakers.
                 </p>
             </aside>
-
+            <!-- This is the twitter column -->
             <aside class="span-6 last" id="twitter">
-
-                <!--This is the script for the twitter widget-->
+              <!--This is the script for the twitter widget-->
               <script src="http://widgets.twimg.com/j/2/widget.js"></script>
               <script>
               new TWTR.Widget({
@@ -83,12 +87,9 @@
                 }
               }).render().setUser('CraftsmanGuild').start();
               </script>
-
             </aside>
-
-
-
         </section>
+        <!-- This is the footer -->
         <footer class="span-24 push-8">
           <a href="terms.html">Terms</a>
           &middot;
@@ -96,7 +97,6 @@
           &middot;
           <a href="mailto:craftsmanguild+craftsmanguild.com@gmail.com">Contact</a>
         </footer>
-
     </div>
 </body>
 </html>
