@@ -1,0 +1,9 @@
+<<<<<<< HEAD
+.bundle
+db/*.sqlite3
+log/*.log
+tmp/**/*
+=======
+.idea/
+
+>>>>>>> view_mockup_2
