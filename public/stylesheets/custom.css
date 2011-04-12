@@ -50,6 +50,11 @@ footer {
     margin-bottom: 5em;
 }
 
+#Pillar {
+    color: #8B7E66;
+    text-decoration: underline;
+}
+
 
 a:link, a:visited {
     text-decoration: none;
@@ -76,3 +81,4 @@ nav a:link, a:visited {
 nav a:hover, a:active {
     background-color:#8B795E;
 }
+
