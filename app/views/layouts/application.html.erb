@@ -14,7 +14,10 @@
 </head>
   <body>
     <!-- This div is the container required for Blueprint CSS -->
-  <%= yield %>
+    <div class="container">
+      <%= render 'layouts/header' %>
+      <%= yield %>
+    </div>
 
 
   </body>
