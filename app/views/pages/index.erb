@@ -1,88 +1,92 @@
 <!-- This div is the container required for Blueprint CSS -->
-    <div class="container">
-        <h1 class="heading">Craftsman Guild</h1>
-        <!-- The navigation bar -->
-        <nav class="span-24 last">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="http://goo.gl/maps/O6HI">Map</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="login.html">Login</a></li>
-            </ul>
-        </nav>
-        <!-- This section contains the event and calendar info -->
-        <section class="span-24 last" id="event_info">
-            <div class="span-13">
-                <h2 class="heading">Events</h2>
-                <p>We plan on meeting every Tuesday to talk about things like taking over the world.</p>
-                <h4 class="heading">Tuesday April 12th</h4>
-                <p>Join us as we discuss Google Guava and Erlang.</p>
-                <h4 class="heading">Tuesday April 19th</h4>
-                <p>We have yet to figure out what we're going to be doing. But it will probably be fun, so attend anyways.</p>
-            </div>
-            <div class="span-6" id="calendar">
-                <iframe src="https://www.google.com/calendar/embed?src=craftsmanguildmi%40gmail.com&ctz=America/New_York" width="450" height="300"></iframe>
-            </div>
-        </section>
-        <!-- This section contains the about column, the donation column, and the twitter feed widget -->
-        <section class="span-24">
-            <!-- This is the about column -->
-            <article class="span-10 colborder" id="about_info" >
-                <h3 class="heading">About Craftsman Guild</h3>
-                <p>We like software. How about you?</p>
-                <p>If you like software, you should probably come check us out.</p>
-                <p>We take software development seriously. But we don't take ourselves seriously.</p>
-            </article>
-            <!-- This is the donation column -->
-            <aside class="span-6 colborder" id="donation">
-                <h3 class="heading">Donate</h3>
-                <p>Craftsman Guild is sponsored by <a href="http://pillartechnology.com/"><span id="Pillar">Pillar</span></a>. Without their generous contributions,
-                Craftsman Guild wouldn't be cozy experience we all know and love.</p>
-                <p>Thank you Pillar Technology.</p>
-            </aside>
-            <!-- This is the twitter column -->
-            <aside class="span-6 last" id="twitter">
-              <!--This is the script for the twitter widget-->
-              <script src="http://widgets.twimg.com/j/2/widget.js"></script>
-              <script>
-              new TWTR.Widget({
-                version: 2,
-                type: 'profile',
-                rpp: 20,
-                interval: 6000,
-                width: 'auto',
-                height: 300,
-                theme: {
-                  shell: {
-                    background: '#CDBA96',
-                    color: '#ffffff'
-                  },
-                  tweets: {
-                    background: '#EEE8CD',
-                    color: '#8B7E66',
-                    links: '#332222'
-                  }
-                },
-                features: {
-                  scrollbar: true,
-                  loop: false,
-                  live: true,
-                  hashtags: true,
-                  timestamp: true,
-                  avatars: false,
-                  behavior: 'all'
-                }
-              }).render().setUser('CraftsmanGuild').start();
-              </script>
-            </aside>
-        </section>
-        <!-- This is the footer -->
-        <footer class="span-24 push-8">
-          <a href="terms.html">Terms</a>
-          &middot;
-          <a href="privacy.html">Privacy</a>
-          &middot;
-          <a href="mailto:craftsmanguildmi+craftsmanguild.com@gmail.com">Contact</a>
-        </footer>
-    </div>
+<div class="container">
+  <h1 class="heading">Craftsman Guild</h1>
+  <% if notice %> <p class="notice"><%= notice %></p> <% end %>
+  <% if notice %> <p class="alert"><%= alert %></p> <% end %>
+  
+  <!-- The navigation bar -->
+  
+  <nav class="span-24 last">
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="http://goo.gl/maps/O6HI">Map</a></li>
+    <li><a href="resources.html">Resources</a></li>
+    <li><a href="login.html">Login</a></li>
+  </ul>
+  </nav>
+  <!-- This section contains the event and calendar info -->
+  <section class="span-24 last" id="event_info">
+  <div class="span-13">
+    <h2 class="heading">Events</h2>
+    <p>We plan on meeting every Tuesday to talk about things like taking over the world.</p>
+    <h4 class="heading">Tuesday April 12th</h4>
+    <p>Join us as we discuss Google Guava and Erlang.</p>
+    <h4 class="heading">Tuesday April 19th</h4>
+    <p>We have yet to figure out what we're going to be doing. But it will probably be fun, so attend anyways.</p>
+  </div>
+  <div class="span-6" id="calendar">
+    <iframe src="https://www.google.com/calendar/embed?src=craftsmanguildmi%40gmail.com&ctz=America/New_York" width="450" height="300"></iframe>
+  </div>
+  </section>
+  <!-- This section contains the about column, the donation column, and the twitter feed widget -->
+  <section class="span-24">
+  <!-- This is the about column -->
+  <article class="span-10 colborder" id="about_info" >
+  <h3 class="heading">About Craftsman Guild</h3>
+  <p>We like software. How about you?</p>
+  <p>If you like software, you should probably come check us out.</p>
+  <p>We take software development seriously. But we don't take ourselves seriously.</p>
+  </article>
+  <!-- This is the donation column -->
+  <aside class="span-6 colborder" id="donation">
+  <h3 class="heading">Donate</h3>
+  <p>Craftsman Guild is sponsored by <a href="http://pillartechnology.com/"><span id="Pillar">Pillar</span></a>. Without their generous contributions,
+  Craftsman Guild wouldn't be cozy experience we all know and love.</p>
+  <p>Thank you Pillar Technology.</p>
+  </aside>
+  <!-- This is the twitter column -->
+  <aside class="span-6 last" id="twitter">
+  <!--This is the script for the twitter widget-->
+  <script src="http://widgets.twimg.com/j/2/widget.js"></script>
+  <script>
+    new TWTR.Widget({
+      version: 2,
+      type: 'profile',
+      rpp: 20,
+      interval: 6000,
+      width: 'auto',
+      height: 300,
+      theme: {
+        shell: {
+          background: '#CDBA96',
+          color: '#ffffff'
+        },
+        tweets: {
+          background: '#EEE8CD',
+          color: '#8B7E66',
+          links: '#332222'
+        }
+      },
+      features: {
+        scrollbar: true,
+        loop: false,
+        live: true,
+        hashtags: true,
+        timestamp: true,
+        avatars: false,
+        behavior: 'all'
+      }
+    }).render().setUser('CraftsmanGuild').start();
+  </script>
+  </aside>
+  </section>
+  <!-- This is the footer -->
+  <footer class="span-24 push-8">
+  <a href="terms.html">Terms</a>
+  &middot;
+  <a href="privacy.html">Privacy</a>
+  &middot;
+  <a href="mailto:craftsmanguildmi+craftsmanguild.com@gmail.com">Contact</a>
+  </footer>
+</div>
 

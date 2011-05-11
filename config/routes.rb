@@ -1,9 +1,15 @@
 CraftsmanGuild::Application.routes.draw do
+  devise_for :users
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
-  # Sample of regular route:
-  #   match 'products/:id' => 'catalog#view'
+  # Sample of regular route
+  #
+
+  match "pages/:id" => "pages#show"
+
+  
   # Keep in mind you can assign values other than :controller and :action
 
   # Sample of named route:
@@ -12,7 +18,9 @@ CraftsmanGuild::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+  
   resources :pages
+  
   # Sample resource route with options:
   #   resources :products do
   #     member do
