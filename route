@@ -1,0 +1,38 @@
+(in /Users/aaronw/Sites/CraftsmanGuild)
+          new_user_session GET    /users/sign_in(.:format)                  {:action=>"new", :controller=>"devise/sessions"}
+              user_session POST   /users/sign_in(.:format)                  {:action=>"create", :controller=>"devise/sessions"}
+      destroy_user_session GET    /users/sign_out(.:format)                 {:action=>"destroy", :controller=>"devise/sessions"}
+             user_password POST   /users/password(.:format)                 {:action=>"create", :controller=>"devise/passwords"}
+         new_user_password GET    /users/password/new(.:format)             {:action=>"new", :controller=>"devise/passwords"}
+        edit_user_password GET    /users/password/edit(.:format)            {:action=>"edit", :controller=>"devise/passwords"}
+                           PUT    /users/password(.:format)                 {:action=>"update", :controller=>"devise/passwords"}
+  cancel_user_registration GET    /users/cancel(.:format)                   {:action=>"cancel", :controller=>"devise/registrations"}
+         user_registration POST   /users(.:format)                          {:action=>"create", :controller=>"devise/registrations"}
+     new_user_registration GET    /users/sign_up(.:format)                  {:action=>"new", :controller=>"devise/registrations"}
+    edit_user_registration GET    /users/edit(.:format)                     {:action=>"edit", :controller=>"devise/registrations"}
+                           PUT    /users(.:format)                          {:action=>"update", :controller=>"devise/registrations"}
+                           DELETE /users(.:format)                          {:action=>"destroy", :controller=>"devise/registrations"}
+                                  /pages/:id(.:format)                      {:action=>"show", :controller=>"pages"}
+                     pages GET    /pages(.:format)                          {:action=>"index", :controller=>"pages"}
+                           POST   /pages(.:format)                          {:action=>"create", :controller=>"pages"}
+                  new_page GET    /pages/new(.:format)                      {:action=>"new", :controller=>"pages"}
+                 edit_page GET    /pages/:id/edit(.:format)                 {:action=>"edit", :controller=>"pages"}
+                      page GET    /pages/:id(.:format)                      {:action=>"show", :controller=>"pages"}
+                           PUT    /pages/:id(.:format)                      {:action=>"update", :controller=>"pages"}
+                           DELETE /pages/:id(.:format)                      {:action=>"destroy", :controller=>"pages"}
+                      root        /(.:format)                               {:action=>"index", :controller=>"pages"}
+     rails_admin_dashboard        /admin(.:format)                          {:action=>"index", :controller=>"rails_admin/main"}
+          rails_admin_list GET    /admin/:model_name(.:format)              {:action=>"list", :controller=>"rails_admin/main"}
+           rails_admin_new GET    /admin/:model_name/new(.:format)          {:action=>"new", :controller=>"rails_admin/main"}
+     rails_admin_get_pages        /admin/:model_name/get_pages(.:format)    {:action=>"get_pages", :controller=>"rails_admin/main"}
+        rails_admin_create POST   /admin/:model_name(.:format)              {:action=>"create", :controller=>"rails_admin/main"}
+          rails_admin_edit GET    /admin/:model_name/:id/edit(.:format)     {:action=>"edit", :controller=>"rails_admin/main"}
+        rails_admin_update PUT    /admin/:model_name/:id(.:format)          {:action=>"update", :controller=>"rails_admin/main"}
+        rails_admin_delete GET    /admin/:model_name/:id/delete(.:format)   {:action=>"delete", :controller=>"rails_admin/main"}
+       rails_admin_destroy DELETE /admin/:model_name/:id(.:format)          {:action=>"destroy", :controller=>"rails_admin/main"}
+   rails_admin_bulk_delete GET    /admin/:model_name/bulk_delete(.:format)  {:action=>"bulk_delete", :controller=>"rails_admin/main"}
+  rails_admin_bulk_destroy POST   /admin/:model_name/bulk_destroy(.:format) {:action=>"bulk_destroy", :controller=>"rails_admin/main"}
+  rails_admin_history_list        /admin/history/list(.:format)             {:action=>"list", :controller=>"rails_admin/history"}
+rails_admin_history_slider        /admin/history/slider(.:format)           {:action=>"slider", :controller=>"rails_admin/history"}
+ rails_admin_history_model        /admin/history/:model_name(.:format)      {:action=>"for_model", :controller=>"rails_admin/history"}
+rails_admin_history_object        /admin/history/:model_name/:id(.:format)  {:action=>"for_object", :controller=>"rails_admin/history"}
